@@ -21,7 +21,7 @@
 #define CS_PIN    10
 
 
-#include <DHT.h> //"DHT.h"
+#include <DHT.h> 
 #define DHTPIN 2 //Conectamos el Sensor al pin digital 2
 #define DHTTYPE DHT11 
 DHT dht(DHTPIN, DHTTYPE);
